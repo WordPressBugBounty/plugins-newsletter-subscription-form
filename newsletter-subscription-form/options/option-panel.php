@@ -163,7 +163,7 @@ function nls_newsletter_func() {
 add_shortcode( 'nls_form', 'nls_newsletter_func' );
 
 // Video embed shortcodes
-function nls_form_themes( $atts, string $content = null, $tag ) {
+function nls_form_themes( $atts, $tag , ?string $content = NULL,) {
 	ob_start();
 
     extract( shortcode_atts(  array(

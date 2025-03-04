@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Newsletter Subscription Form
  * Description:       Newsletter Subscription Form for WordPress is the ultimate lead generation, customer acquisition and email marketing plugin to grow and engage your mailing list and visitors.
- * Version: 		  1.5.2
+ * Version: 		  1.5.3
  * Author: 			  Weblizar
  * Text Domain: 	  newsletter-subscription-form
  * Domain Path: 	  /options/languages
@@ -10,7 +10,7 @@
  * Plugin URI:        https://weblizar.com/plugins/newsletter-subscription-form/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Copyright 2016-22  Weblizar (email : lizarweb@gmail.com, twitter : @weblizar)
+ * Copyright 2016-25  Weblizar (email : lizarweb@gmail.com, twitter : @weblizar)
  */
 
 /**
@@ -23,7 +23,7 @@ define('NLS_PLUGIN_NAME', esc_html__('Newsletter Subscription Form', 'NLS_TEXT_D
 define("WEBLIZAR_NLS_PLUGIN_URL", plugin_dir_url(__FILE__));
 
 // echo dirname(__FILE__) . '/options/option-panel.php';
-// die;
+
 if (file_exists(dirname(__FILE__) . '/options/option-panel.php')) {
     include 'options/option-panel.php';
 }
