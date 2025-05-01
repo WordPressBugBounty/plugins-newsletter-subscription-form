@@ -108,7 +108,7 @@
 				$social_link     = 'social_link_' . $i;
 				$social_link_tab = 'social_link_tab_' . $i;
 				$social_icolor   = 'social_icolor_' . $i;
-				$wl_nls_options[$social_icon]  = sanitize_text_field($_POST[$social_icon]);
+				$wl_nls_options[$social_icon]  	  = sanitize_text_field($_POST[$social_icon]);
 				$wl_nls_options[$social_link]     = esc_url_raw($_POST[$social_link]);
 				$wl_nls_options[$social_link_tab] = sanitize_text_field( isset($_POST[$social_link_tab]) ? $_POST[$social_link_tab] : null );
 				$wl_nls_options[$social_icolor]   = sanitize_hex_color($_POST[$social_icolor]);

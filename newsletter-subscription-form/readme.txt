@@ -3,8 +3,8 @@ Contributors: weblizar
 Donate link: https://www.weblizar.com
 Tags: newsletter, newsletter subscription form, subscriber form, newsletter wordpress plugin, newsletter api, newsletter widget, email, contact, Email Marketing, signup forms, welcome email
 Requires at least: 7.4
-Tested up to: 6.7.2
-Stable tag: 1.5.3
+Tested up to: 6.8
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -144,6 +144,9 @@ Please use WordPress support forum to ask any query regarding any issue.
 11. Newsletter Subscription Form two with color scheme
 
 == Changelog ==
+= 1.5.4 =[05-05-2025]
+* Tested upto WordPress 6.8
+
 = 1.5.3 =[04-03-2025]
 * Tested upto WordPress 6.7.2
 * Tested upto Php 8.3.3

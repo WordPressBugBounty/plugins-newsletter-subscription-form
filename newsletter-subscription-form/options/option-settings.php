@@ -21,8 +21,8 @@ $wl_nls_options = weblizar_nls_get_options();?>
 							<input type="hidden" name="security"
 								value="<?php echo esc_attr($nonce); ?>">
 							<div class="activation col-md-12 form-group">
-								<h4>Shortcode</h4>
-								<div class="jumbotron">									
+								<h4><?php esc_html_e('Shortcode', 'NLS_TEXT_DOMAIN'); ?></h4>
+								<div class="jumbotron">
 									<ul class="instruction_points theme_msg_heading">
 										<li><?php esc_html_e('Use Shortcode = [nls_form] to show subscriber form at post and page.', 'NLS_TEXT_DOMAIN'); ?>
 										</li><br>
