@@ -1,12 +1,13 @@
 === Newsletter Subscription Form - User Subscriptions Form, Capture Email ===
 Contributors: weblizar
 Donate link: https://www.weblizar.com
-Tags: newsletter, newsletter subscription form, subscriber form, newsletter wordpress plugin, newsletter api, newsletter widget, email, contact, Email Marketing, signup forms, welcome email
-Requires at least: 7.4
-Tested up to: 6.9
-Stable tag: 1.5.6
+Tags: newsletter wordpress plugin, newsletter subscription form, email marketing, signup forms, newsletter widget
+Requires at least: 5.0
+Requires PHP: 7.4
+Tested up to: 6.9.1
+Stable tag: 1.5.7
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Newsletter Subscription Form for WordPress is the ultimate lead generation, customer acquisition and email marketing plugin to grow and engage your mailing list and visitors.
 
@@ -144,6 +145,10 @@ Please use WordPress support forum to ask any query regarding any issue.
 11. Newsletter Subscription Form two with color scheme
 
 == Changelog ==
+= 1.5.7 =[23-02-2026]
+* Tested upto WordPress 6.9.1
+* Tested upto Php 8.5.1
+
 = 1.5.6 =[10-12-2025]
 * Tested upto WordPress 6.9
 * Tested upto Php 8.4
