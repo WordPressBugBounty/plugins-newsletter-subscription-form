@@ -4,8 +4,8 @@ Donate link: https://www.weblizar.com
 Tags: newsletter wordpress plugin, newsletter subscription form, email marketing, signup forms, newsletter widget
 Requires at least: 5.0
 Requires PHP: 7.4
-Tested up to: 6.9.1
-Stable tag: 1.5.7
+Tested up to: 7.0
+Stable tag: 1.5.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -145,6 +145,11 @@ Please use WordPress support forum to ask any query regarding any issue.
 11. Newsletter Subscription Form two with color scheme
 
 == Changelog ==
+
+= 1.5.8 =[13-06-2026]
+* Tested upto WordPress 7.0
+* Tested upto Php 8.5.6
+
 = 1.5.7 =[23-02-2026]
 * Tested upto WordPress 6.9.1
 * Tested upto Php 8.5.1

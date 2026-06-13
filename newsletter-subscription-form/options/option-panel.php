@@ -32,7 +32,7 @@ function nls_truncateString($str, $chars, $to_space, $replacement="..") {
  * Weblizar Admin Menu CSS
  */
 function nls_admin_enqueue_script() {	// for Adding css and js files of plugin
-	wp_enqueue_script('jQuery');
+	wp_enqueue_script('jquery');
 	wp_enqueue_script('popper', plugin_dir_url( __FILE__ ). 'js/popper.min.js');
 	wp_enqueue_script('weblizar-tab-js', plugin_dir_url( __FILE__ ).'js/option-js.js',array('media-upload', 'jquery-ui-sortable'));
 	wp_enqueue_script('weblizar-bt-toggle', plugin_dir_url( __FILE__ ).'js/bt-toggle.js');

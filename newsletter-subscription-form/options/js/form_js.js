@@ -21,6 +21,8 @@ jQuery(document).ready(function() {
 });
 
 
-jQuery(document).ready(function(){
-	jQuery('#mv_cr_section_color').wpColorPicker();
+jQuery(document).ready(function() {
+	if (jQuery.fn.wpColorPicker && jQuery('#mv_cr_section_color').length) {
+		jQuery('#mv_cr_section_color').wpColorPicker();
+	}
  });

@@ -2,7 +2,7 @@
 /*
  * Plugin Name:       Newsletter Subscription Form
  * Description:       Newsletter Subscription Form for WordPress is the ultimate lead generation, customer acquisition and email marketing plugin to grow and engage your mailing list and visitors.
- * Version: 		  1.5.7
+ * Version: 		  1.5.8
  * Author: 			  Weblizar
  * Text Domain: 	  newsletter-subscription-form
  * Domain Path: 	  /options/languages
@@ -83,11 +83,8 @@ register_activation_hook(__FILE__, 'nls_callback_plugin_subscriber');
  * Function to redirect to maintenance mode page
  */
 function nls_template_redirect_enqueue_script() {
-    wp_deregister_script('jQuery');
-    wp_enqueue_script('wp-color-picker');
-    wp_enqueue_style('wp-color-picker');
     wp_enqueue_style('form-style', plugin_dir_url(__FILE__) . 'options/css/form-style.css');
-    wp_enqueue_script('form_js', plugin_dir_url(__FILE__) . 'options/js/form_js.js', array('jQuery', 'wp-color-picker'));
+    wp_enqueue_script('form_js', plugin_dir_url(__FILE__) . 'options/js/form_js.js', array('jquery'));
 }
 
 add_action('wp_enqueue_scripts', 'nls_template_redirect_enqueue_script');
