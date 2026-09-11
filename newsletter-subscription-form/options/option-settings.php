@@ -1271,14 +1271,16 @@ $wl_nls_options = weblizar_nls_get_options();?>
 								data-wp-lists="list:post">
 								<thead>
 									<tr>
-										<th scope="col" id="sub_cbx" class="manage-column column-title sortable asc"></th>
-										<th scope="col" id="sub_cbx" class="manage-column column-title sortable asc">
+										<th scope="col" id="sub_cb" class="manage-column column-cb check-column">
+											<input type="checkbox" id="select_all_subs">
+										</th>
+										<th scope="col" id="sub_fname" class="manage-column column-title sortable asc">
 											<span><?php esc_html_e('First Name', 'NLS_TEXT_DOMAIN'); ?></span>
 										</th>
-										<th scope="col" id="sub_cbx" class="manage-column column-title sortable asc">
+										<th scope="col" id="sub_lname" class="manage-column column-title sortable asc">
 											<span><?php esc_html_e('Last Name', 'NLS_TEXT_DOMAIN'); ?></span>
 										</th>
-										<th scope="col" id="sub_cbx" class="manage-column column-title sortable asc">
+										<th scope="col" id="sub_terms" class="manage-column column-title sortable asc">
 											<span><?php esc_html_e('Agree GDPR Compliant', 'NLS_TEXT_DOMAIN'); ?></span>
 										</th>
 										<th scope="col" id="sub_email" class="manage-column column-title sortable asc">

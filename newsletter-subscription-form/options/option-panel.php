@@ -34,15 +34,14 @@ function nls_truncateString($str, $chars, $to_space, $replacement="..") {
 function nls_admin_enqueue_script() {	// for Adding css and js files of plugin
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('popper', plugin_dir_url( __FILE__ ). 'js/popper.min.js');
-	wp_enqueue_script('weblizar-tab-js', plugin_dir_url( __FILE__ ).'js/option-js.js',array('media-upload', 'jquery-ui-sortable'));
+	wp_enqueue_script('weblizar-tab-js', plugin_dir_url( __FILE__ ).'js/option-js.js', array('media-upload', 'jquery-ui-sortable'), time());
 	wp_enqueue_script('weblizar-bt-toggle', plugin_dir_url( __FILE__ ).'js/bt-toggle.js');
 	wp_enqueue_script('bootstrap', plugin_dir_url( __FILE__ ). 'js/bootstrap.min.js');
 	wp_enqueue_script('weblizarColor', plugin_dir_url( __FILE__ ). 'js/jqColorPicker.min.js');
 	wp_enqueue_script('dataTables', plugin_dir_url( __FILE__ ). 'js/jquery.dataTables.js');
-	wp_enqueue_style('weblizar-option-style', plugin_dir_url( __FILE__ ).'css/option-style.css');
+	wp_enqueue_style('weblizar-option-style', plugin_dir_url( __FILE__ ).'css/option-style.css', array(), time());
 	wp_enqueue_style('bootstrap', plugin_dir_url( __FILE__ ). 'css/bootstrap.min.css');
 	wp_enqueue_style('font-awesome', plugin_dir_url( __FILE__ ). 'css/all.min.css');
-
 }
 /**
  * Weblizar Plugin Option Form
